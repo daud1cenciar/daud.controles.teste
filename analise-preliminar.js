@@ -69,6 +69,7 @@
   #pgAP a.btn{text-decoration:none;color:var(--tx);display:inline-flex;align-items:center}
   #pgAP a.btn:hover{color:var(--g)}
   @media (max-width:720px){.pg-tabs{overflow-x:auto;scrollbar-width:none}.pg-tabs button{flex:0 0 auto}}
+  html.ro .pg-tabs [data-page="analise"]{display:none!important}
   @media (max-width:720px){#pgAP .ap-doc{grid-template-columns:1fr}#pgAP .ap-ac{justify-content:flex-start}#pgAP .ap-tb .ap-hm{display:none}}
   `;
   document.head.appendChild(css);
